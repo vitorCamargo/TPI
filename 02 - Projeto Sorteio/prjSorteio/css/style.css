@@ -1,0 +1,108 @@
+@import "https://fonts.googleapis.com/css?family=Muli:light,lightitalic,normal,italic,bold,bolditalic";
+
+form {
+    padding-top: 10%;
+}
+
+.jotform-form {
+    padding-top: 70px;
+}
+
+.form-all {
+    margin: 0px auto;
+    width: 1000px;
+    font-family: 'Muli';
+    font-size: 14px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.68);
+}
+
+.form-section, .form-section-closed {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.httac {
+    text-align: center;
+}
+
+h1.form-header {
+    font-size: 2.143em;
+    margin: 0px;
+}
+
+.form-subHeader {
+    border-top: none;
+    font-size: 1.071em;
+    margin: 3px 0 0;
+    font-style: italic;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	background-image: url("../images/back.jpg");
+	background-size: cover;
+}
+
+.form-all{
+	margin:0px auto;
+	padding-top:0;
+	width:1000px;
+	color:rgb(0, 0, 0) !important;
+	font-family:'Muli';
+	font-size:14px;
+}	
+
+.form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
+	color: rgb(0, 0, 0);
+}
+
+#bolas {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bolas td {
+	width: 60px;
+	height: 60px;
+	background-image: url("../images/bola.png");
+	background-repeat: no-repeat;
+	background-position-x: -55px;
+	background-position-y: -55px;
+	background-size: 173px;
+	text-align: center;
+	text-shadow: 0 1px 0 #666;
+}
+
+table {
+	margin: 15px;
+}
+
+.form-line {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.form-submit-button {
+    color: #ffffff !important;
+    border-radius: 6px;
+    padding: 9px 15px;
+    font-family: "Muli", sans-serif;
+    font-size: 16px;
+    outline: none;
+    background: #1B1B1A !important;
+    box-shadow: none !important;
+    text-shadow: none;
+    transition: all .5s ease-in-out;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.form-submit-button:hover {
+    background : #2F2F2F !important;
+}
