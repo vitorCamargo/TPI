@@ -1,0 +1,43 @@
+#div1 {
+	border: solid 2px;
+	border-color: rgb(139,69,19);
+	border-radius: 5px;
+	padding: 10px;
+	color: rgb(139,69,19);
+	width: 600px;
+	font-family: calibri;
+	background-color: rgb(210,180,140);
+}
+
+#p1 {
+	text-align: center;
+	border-bottom-style: solid;
+	padding: 5px;
+}
+
+td {
+	padding: 5px;
+}
+
+#table {
+	padding: 5px;
+	color: rgb(139,69,19);
+	border: solid 2px;
+	border-color: rgb(139,69,19);
+	background-color: rgb(210,180,140);
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+	background:rgb(218, 204, 169);
+	width: 6px;
+}
+::-webkit-scrollbar-thumb {
+	background: rgb(165,135,70);
+}
+::-webkit-scrollbar-track {
+	background:none;
+}
+::-webkit-scrollbar-corner{
+	background: rgb(165,135,70);
+}
