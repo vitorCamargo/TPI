@@ -1,0 +1,180 @@
+body {
+	font-family: "Lato";
+	background-color: #5d7a98;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+form {
+	width: 380px;
+	background-color: #5d7a98;
+	margin: auto;
+}
+
+.head {
+	margin-bottom: 42px;
+	text-align: center;
+	font-size: 48px;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+.login {
+	margin-bottom: 15px;
+	color: white;
+    font-family: "Lato";
+	min-width: 100% !important;
+	height: 42px;
+    font-size: 20px !important;
+    line-height: 32px !important;
+	outline: none;
+	background-color: rgba(0, 0, 0, 0.25);
+	border: none;
+	text-align: center;
+	box-sizing: border-box;
+	transition: 0.3s ease all;
+}
+
+.login:focus {
+	opacity: 0.8;
+}
+
+.senha {
+	margin-bottom: 15px;
+	color: white;
+    font-family: "Lato";
+	min-width: 100% !important;
+	height: 42px;
+    font-size: 20px !important;
+    line-height: 32px !important;
+	outline: none;
+	background-color: rgba(0, 0, 0, 0.25);
+	border: none;
+	text-align: center;
+	box-sizing: border-box;
+	transition: 0.3s ease all;
+}
+
+.senha:focus {
+	opacity: 0.8;
+}
+
+.botao {
+	margin-bottom: 15px;
+	cursor: pointer;
+	color: white;
+    font-family: "Lato";
+	min-width: 100% !important;
+	height: 42px;
+    font-size: 20px !important;
+    line-height: 32px !important;
+	outline: none;
+	background-color: #80a6cb;
+	border: none;
+	text-align: center;
+	box-sizing: border-box;
+	transition: 0.3s ease all;
+}
+
+.botao:hover {
+	 background : #6B96C0;
+}
+
+.header {
+	min-width: 380px;
+	background-color: #5d7a98;
+	margin: auto;
+	text-align: center;
+	font-size: 48px;
+}
+
+.header p {
+	margin-bottom: 0px;
+}
+
+.messagebox {
+	padding: 10px;
+	margin: 10px;
+	margin-top: 0;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+a {
+	cursor: pointer;
+	color: white;
+}
+
+menu {
+	padding-right: 40px;
+	margin-bottom: 0;
+	text-align: right;
+}
+
+.menu_botao1 {
+	border-radius: 2px;
+	margin-bottom: 15px;
+	cursor: pointer;
+	color: white;
+    font-family: "Lato";
+	max-width:100px !important;
+	height: 42px;
+    font-size: 20px !important;
+    line-height: 32px !important;
+	outline: none;
+	background-color: #80a6cb;
+	border: none;
+	text-align: center;
+	box-sizing: border-box;
+	transition: 0.3s ease all;	
+}
+
+.menu_botao1:hover {
+	 background : #6B96C0;
+}
+
+.menu_botao2 {
+	border-radius: 2px;
+	margin-bottom: 15px;
+	margin-left: 3px;
+	cursor: pointer;
+	color: white;
+    font-family: "Lato";
+	max-width:100px !important;
+	height: 42px;
+    font-size: 20px !important;
+    line-height: 32px !important;
+	outline: none;
+ 	background-color: rgba(255, 255, 255, 0.3);
+	border: none;
+	text-align: center;
+	box-sizing: border-box;
+	transition: 0.3s ease all;
+}
+
+.menu_botao2:hover {
+	 background : rgba(255, 255, 255, 0.5);
+}
+
+/* CSS Font */
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url(http://fonts.gstatic.com/s/lato/v11/eFRpvGLEW31oiexbYNx7Y_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url(http://fonts.gstatic.com/s/lato/v11/GtRkRNTnri0g82CjKnEB0Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
