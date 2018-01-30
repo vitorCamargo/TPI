@@ -1,0 +1,222 @@
+body {
+	background-color: #363636;
+	margin: 0;
+}
+
+.slogan {
+	padding-bottom: 50px;
+    border-bottom: 20px solid #00bc66;
+	margin: 0px 0 0 0;
+	height: 350px;
+	width: 100%;
+}
+
+.maps {
+	float: right;
+}
+
+#map {
+	width: 100%;
+	height: 100%;
+}
+
+.block {
+	position: absolute;
+	width: 500px;
+	background-color: rgba(39, 39, 39, 0.9);
+	height: 350px;
+}
+
+.block .logo {
+	margin: 30px 0 0 50px;
+}
+
+.block .title1, .block .title2 {
+	position: absolute;
+	font-size: 3.5em;
+	font-family: "Source Sans Pro";
+	font-weight: 300;
+	margin: 0;
+}
+
+.block .title1 {
+	left: 240px;
+    top: 110px;
+	color: white;
+	font-weight: bolder;
+}
+
+.block .title2 {
+	left: 323px;
+    top: 152px;
+	color: #00bc66;
+	font-weight: 350;
+}
+
+.block .text {
+	position: absolute;
+	width: 500px;
+    text-align: center;
+    top: 221px;
+    left: 0px;
+	color: white;
+	font-family: "Open Sans";
+	font-weight: normal;
+	font-size: 20px;
+}
+
+.t1 {
+	font-size: 3.5em;
+	font-family: "Source Sans Pro";
+	color: white;
+	margin: 0;
+	font-weight: bolder;
+}
+
+.t2 {
+	font-size: 3.5em;
+	font-family: "Source Sans Pro";
+	margin: 0;
+	color: #00bc66;
+	font-weight: 350;
+	margin-bottom: 30px;
+}
+
+form {
+	max-width: calc(100% - 50%);
+    margin: auto;
+	margin-bottom: 50px;
+}
+
+label {
+	margin-top: 15px;
+	display: inline-block;
+	font-family: "Source Sans Pro";
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+input {
+	display: inline-block;
+	font-family: "Open Sans";
+	height: auto;
+    padding: 10px;
+    color: #333;
+	font-size: 14px;
+    line-height: 1.42857143;
+	background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	outline: none;
+}
+
+.nome label, .cep label, .endereco label, .cidade label, .bairro label, .numero label, .estado label {
+	width: 100%;
+}
+
+.nome input, .endereco input, .bairro input {
+	width: 335px;
+}
+
+.cadastrar, .limpar {
+    color: #fff;
+    background-color: #00bc66;
+    border-color: transparent;
+	font-family: "Source Sans Pro";
+	font-weight: 300;
+    line-height: 1.1;
+    white-space: normal;
+	text-align: center;
+	cursor: pointer;
+	padding: 15px 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.cadastrar:hover, .limpar:hover {
+	background-color: #00894A;
+}
+
+.btcep {
+	color: #fff;
+    background-color: #2C2D2D;
+    border-color: transparent;
+	font-family: "Source Sans Pro";
+	font-weight: 300;
+    line-height: 1.1;
+    white-space: normal;
+	text-align: center;
+	cursor: pointer;
+	padding: 10px 10px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.btcep:hover {
+	background-color: #00bc66;
+}
+
+.cadastrado {
+	width: calc(100% - 200px);
+	height: 250px;
+	padding-bottom: 50px;
+	background-color: rgba(39, 39, 39, 0.9);
+	text-align: center;
+	padding: 100px;
+	font-family: "Source Sans Pro";
+	font-size: 30px; 
+}
+
+.cadastrado p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.voltar {
+	border-color: rgba(0,188,102,.4);
+    color: #00bc66;
+    outline: none;
+    background-color: transparent;
+	font-family: "Source Sans Pro";
+	font-weight: 300;
+    line-height: 1.1;
+    white-space: normal;
+	text-align: center;
+	cursor: pointer;
+	padding: 15px 30px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.voltar:hover {
+	border-color: rgba(0,188,102,.6);
+    color: #39e998;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+	height: 12px
+}
+
+::-webkit-scrollbar-track {
+	background-color: #fff
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #b8d0c5;
+	border-radius: 0;
+	-webkit-box-shadow: inset 0 0 0 2px white;
+	-moz-box-shadow: inset 0 0 0 2px white;
+	-ms-box-shadow: inset 0 0 0 2px white;
+	-o-box-shadow: inset 0 0 0 2px white;
+	box-shadow: inset 0 0 0 2px white
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #65bd95
+}
+
+::selection,::-moz-selection {
+	background-color: #00bc66;
+	color: #fff
+}
