@@ -1,0 +1,227 @@
+/* Configurações Gerais */
+.anuncio2 {
+	position: absolute; 
+	top: 1722px; 
+	height: 105px; 
+	width: 100% !important;
+	left: 0px;
+}
+
+.rodape2 {
+	position: absolute; 
+	top: 1827px; 
+	height: 200px; 
+	width: 100% !important;
+	left: 0px; 
+	bottom: auto;
+}
+
+/* Inicio Pacotes.php */
+.corpo {
+	position: absolute; 
+	top: 235px; 
+	height: 1134px; 
+	width: 980px; 
+	left: 0px;
+}
+
+.corpo_titulo {
+	position: absolute; 
+	top: 1px; 
+	width: 965px; 
+	left: 1px;
+	right: 0px;
+	font: normal normal normal 20px/1.4em Spinnaker,sans-serif;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	border-top: 3px solid rgba(255, 255, 255, 1);
+	height: 28px;
+	padding-left: 9px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	border-bottom: 3px solid rgba(255, 255, 255, 1);
+}
+
+.quadro1 {
+	position: absolute; 
+	top: 65px; 
+	height: 234px; 
+	width: 334px; 
+	left: 3px;
+	border: 8px solid rgba(255, 255, 255, 1);
+	background-color: rgba(48, 85, 137, 0.16);
+}
+
+.quadro1_img {
+	position: absolute; 
+	top: 37px; 
+	height: 67px; 
+	width: 73px; 
+	left: 129px;
+	object-fit: contain;
+}
+
+.quadro1_text {
+	position: absolute; 
+	top: 118px; 
+	width: 205px; 
+	left: 62px;
+	text-align: center; 
+	line-height: 1em !important;
+	font: normal normal normal 25px/1.4em Spinnaker,sans-serif;
+	color: white;
+}
+
+.quadro2 {
+	position: absolute; 
+	top: 65px; 
+	height: 234px; 
+	width: 618px;
+	left: 345px;
+	border: 8px solid rgba(255, 255, 255, 1);
+}
+
+.quadro2_img {
+	width: 618px; 
+	height: 234px; 
+	object-fit: cover;
+}
+
+.pct1 {
+	position: absolute; 
+	top: 550px; 
+	height: 313px; 
+	width: 235px; 
+	left: 1px;
+	background-color: rgba(255, 255, 255, 0.77);
+}
+
+.pt2_img {
+	width: 235px; 
+	height: 195px; 
+	object-fit: cover;
+}
+
+.pct1_pt1 {
+	position: absolute; 
+	top: 2px; 
+	width: 185px; 
+	left: 16px;
+}
+
+.pt1_preco {
+	font: normal normal normal 53px/1.4em Spinnaker,sans-serif;
+	color: #305589;
+}
+
+.pt1_dest {
+	font: normal normal normal 20px/1.4em Spinnaker,sans-serif;
+	color: #305589;
+}
+
+.pt1_desc {
+	line-height: 1em !important;
+	font: normal normal normal 15px/1.4em Spinnaker,sans-serif;
+	color: #305589;
+	text-align: center !important;
+}
+
+.pt1_desc1 {
+	font: normal normal normal 17px/1.4em Spinnaker,sans-serif;
+	color: #305589;
+}
+
+.pct1_pt2 {
+	position: absolute; 
+	top: -190px; 
+	height: 195px; 
+	width: 235px; 
+	left: 0px;
+}
+
+.pt2_icon {
+	position: absolute; 
+	top: 277px; 
+	height: 27px; 
+	width: 21px; 
+	left: 15px;
+}
+
+.pt2_text {
+	position: absolute; 
+	top: 280px; 
+	height: 21px; 
+	width: 115px; 
+	left: 41px;
+	text-align: center;
+	margin-top: 0px;
+}
+
+.pt2_text a {
+	font: normal normal normal 15px/1.4em Spinnaker,sans-serif;
+	color: #305589 !important;
+}
+
+.pct2 {
+	position: absolute; 
+	top: 548px; 
+	height: 316px; 
+	width: 235px; 
+	left: 249px;
+	background-color: rgba(255, 255, 255, 0.77);
+}
+
+.pct3 {
+	position: absolute; 
+	top: 550px; 
+	height: 314px; 
+	width: 235px; 
+	left: 498px;
+	background-color: rgba(255, 255, 255, 0.77);
+}
+
+.pct4 {
+	position: absolute;
+	top: 550px; 
+	height: 314px; 
+	width: 235px; 
+	left: 744px;
+	background-color: rgba(255, 255, 255, 0.77);
+}
+
+.pct5 {
+	position: absolute; 
+	top: 1092px; 
+	height: 327px; 
+	width: 235px; 
+	left: 2px;
+	background-color: rgba(255, 255, 255, 0.77);
+}
+
+.pct6 {
+	position: absolute; 
+	top: 1094px; 
+	height: 322px;
+	width: 235px; 
+	left: 249px;
+	background-color: rgba(255, 255, 255, 0.77);
+}
+
+.pct7 {
+	position: absolute; 
+	top: 1096px; 
+	height: 321px; 
+	width: 235px; 
+	left: 497px;
+	background-color: rgba(255, 255, 255, 0.77);
+}
+
+.pct8 {
+	position: absolute;
+	top: 1096px; 
+	height: 321px; 
+	width: 235px; 
+	left: 744px;
+	background-color: rgba(255, 255, 255, 0.77);
+}
+/* Fim Pacotes.php */

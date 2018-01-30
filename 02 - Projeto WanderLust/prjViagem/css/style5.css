@@ -1,0 +1,177 @@
+/* Configurações Gerais */
+.anuncio2 {
+	position: absolute; 
+	top: 803px; 
+	height: 105px; 
+	width: 100% !important;
+	left: 0px;
+}
+
+.rodape2 {
+	position: absolute; 
+	top: 908px; 
+	height: 200px; 
+	width: 100% !important;
+	left: 0px; 
+	bottom: auto;
+}
+
+/* Inicio Contate.php */
+.corpo {
+	position: absolute; 
+	top: 235px; 
+	width: 980px; 
+	left: 0px;
+}
+
+.corpo_titulo {
+	position: absolute; 
+	top: 1px; 
+	width: 965px; 
+	left: 1px;
+	right: 0px;
+	font: normal normal normal 20px/1.4em Spinnaker,sans-serif;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	border-top: 3px solid rgba(255, 255, 255, 1);
+	height: 28px;
+	padding-left: 9px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	border-bottom: 3px solid rgba(255, 255, 255, 1);
+}
+
+.forma {
+	position: absolute; 
+	top: 163px; 
+	height: 50px;
+	width: 375px;
+	left: 50px;
+	padding-top: 20px;
+}
+
+.forma_text {
+	position: absolute;
+	top: 28px;
+	width: 255px;
+	left: 64px;
+	text-align: center;
+	color: white;
+	font: normal normal normal 25px/1.4em Spinnaker,sans-serif;
+}
+
+.forma b {
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	overflow: hidden;
+}
+
+.forma b:after {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	content: "";
+	border: 1000px solid transparent;
+}
+
+.forma b.supesq:after {
+	top: 0;
+	left: 0;
+	border-top-color: rgba(0, 165, 154, 1);
+	border-left-width: 500px;
+}
+
+.forma b.supdir {
+	left: 50%;
+}
+
+.forma b.supdir:after {
+	top: 0;
+	right: 0;
+	border-top-color: rgba(0, 165, 154, 1);
+	border-right-width: 500px;
+}
+
+.forma b.infesq {
+	top: 50%;
+}
+
+.forma b.infesq:after {
+	bottom: 0;
+	left: 0;
+	border-bottom-color: rgba(0, 165, 154, 1);
+	border-left-width: 500px;
+}
+
+.forma b.infdir {
+	top: 50%;
+	left: 50%;
+}
+
+.forma b.infdir:after {
+  bottom: 0;
+  right: 0;
+  border-bottom-color: rgba(0, 165, 154, 1);
+  border-right-width: 500px;
+}
+
+.quadro1 {
+	position: absolute; 
+	width: 405px;
+	top: 100px;
+	left: 42px;
+	text-align: center;
+	color: white;
+	font: normal normal normal 20px/1.4em Spinnaker,sans-serif;
+}
+
+.quadro1 p {
+	padding-top: 60px;
+}
+
+.form {
+	height: 276px; 
+	position: absolute; 
+	top: 100px; 
+	width: 480px; 
+	left: 495px;
+}
+
+.form input, .form textarea {
+	font: normal normal normal 15px/1.4em Spinnaker,sans-serif;
+	background-color: rgba(28, 51, 83, 0.8);
+	-webkit-appearance: none;
+	border: 0px solid rgba(114, 151, 206, 1);
+	color: #FFFFFF;
+	margin: 0 0 5px;
+	width: 100%;
+	box-sizing: border-box;
+	outline: none;
+}
+
+.form textarea {
+	min-height: 130px;
+	resize: none;
+}
+
+.form button, .form input, .form textarea {
+	border-radius: 0;
+	padding: 5px;
+}
+
+.form button {
+	background-color: rgba(0, 165, 154, 1);
+	font: normal normal normal 15px/1.4em Spinnaker,sans-serif;
+	border: 0;
+	color: #FFFFFF;
+	cursor: pointer;
+	float: right;
+	margin: 0;
+	max-width: 35%;
+}
+
+.form button:hover {
+	color: #00524D;
+}
+/* Fim Contate.php */

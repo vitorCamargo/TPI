@@ -1,0 +1,285 @@
+/* Configurações Gerais */
+.anuncio2 {
+	position: absolute; 
+	top: 1202px; 
+	height: 105px; 
+	width: 100% !important;
+	left: 0px;
+}
+
+.rodape2 {
+	position: absolute; 
+	top: 1307px; 
+	height: 200px; 
+	width: 100% !important;
+	left: 0px; 
+	bottom: auto;
+}
+
+/* Inicio Sobre.php */
+.corpo {
+	position: absolute; 
+	top: 235px; 
+	height: 1134px; 
+	width: 980px; 
+	left: 0px;
+}
+
+.corpo_titulo {
+	position: absolute; 
+	top: 1px; 
+	width: 965px; 
+	left: 1px;
+	right: 0px;
+	font: normal normal normal 20px/1.4em Spinnaker,sans-serif;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	border-top: 3px solid rgba(255, 255, 255, 1);
+	height: 28px;
+	padding-left: 9px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	border-bottom: 3px solid rgba(255, 255, 255, 1);
+}
+
+.quadro1_img {
+	position: absolute; 
+	top: 76px; 
+	width: 579px;
+	height: 194px;
+	left: 0px;
+	border: 8px solid rgba(255, 255, 255, 1);
+}
+
+.img_quadro1 {
+	width: 579px; 
+	height: 194px; 
+	object-fit: cover;
+}
+
+.quadro1_text {
+	position: absolute; 
+	top: 284px; 
+	height: 255px; 
+	width: 595px; 
+	left: 0px;
+	background-color: rgba(255, 255, 255, 0.77);
+}
+
+.text_quadro1 {
+	position: absolute;
+	top: 22px;
+	width: 545px;
+	left: 19px;
+	line-height: 1.1em !important;
+	color: #305589;
+}
+
+.text_quadro1 span {
+	  font: normal normal normal 25px/1.4em Spinnaker,sans-serif;
+}
+
+.text_quadro1 p {
+	font: normal normal normal 15px/1.4em Spinnaker,sans-serif;
+}
+
+.linha_pontilhada {
+	position: absolute; 
+	top: 79px; 
+	height: 460px; 
+	left: 634px;
+	border-left: 2px dashed rgba(255, 255, 255, 1);
+	margin-left: -1px;
+	width: 0 !important;
+	min-width: 0 !important;
+}
+
+.quadro2 {
+	position: absolute; 
+	top: 70px; 
+	width: 310px; 
+	left: 673px;
+	line-height: 0.9em !important;
+	font: normal normal normal 48px/1.4em Spinnaker,sans-serif;
+	color: #FFFFFF;
+	letter-spacing: 0.0em;
+}
+
+.quadro3 {
+	position: absolute; 
+	top: 212px;
+	height: 330px;
+	width: 308px; 
+	left: 670px;
+	background-color: rgba(0, 165, 154, 1);
+}
+
+.quadro3_img {
+	position: absolute; 
+	top: 27px;  
+	left: 84px;
+}
+
+.quadro3_text {
+	position: absolute; 
+	top: 80px; 
+	width: 260px; 
+	left: 25px;
+	text-align: center; 
+	line-height: 1.5em !important;
+	font: normal normal normal 20px/1.4em Spinnaker,sans-serif;
+	color: white;
+}
+
+.divisoria1 {
+	position: absolute; 
+	top: 45px;  
+	width: 180px; 
+	left: 43px;
+	border-bottom: 2px dashed rgba(255, 255, 255, 1);
+	height: 0 !important;
+	min-height: 0 !important;
+}
+
+.divisoria2 {
+	position: absolute; 
+	top: 106px;  
+	width: 180px; 
+	left: 43px;
+	border-bottom: 2px dashed rgba(255, 255, 255, 1);
+	height: 0 !important;
+	min-height: 0 !important;
+}
+
+.divisoria3 {
+	position: absolute; 
+	top: 166px;  
+	width: 180px; 
+	left: 43px;
+	border-bottom: 2px dashed rgba(255, 255, 255, 1);
+	height: 0 !important;
+	min-height: 0 !important;
+}
+
+.quadro4_titulo {
+	position: absolute; 
+	top: 615px; 
+	height: 65px; 
+	width: 980px; 
+	left: 0px;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.quadro4_titulo_text {
+	position: absolute; 
+	top: 19px; 
+	width: 336px; 
+	left: 326px;
+	text-align: center;
+	font: normal normal normal 20px/1.4em Spinnaker,sans-serif;
+	color: #305589;
+	letter-spacing: 0.2em;
+}
+
+.quadro4_dep1 {
+	position: absolute; 
+	top: 700px; 
+	height: 180px; 
+	width: 310px; 
+	left: 0px;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.dep1_text {
+	position: absolute; 
+	top: 23px; 
+	width: 270px; 
+	left: 22px;
+	line-height: 1.1em !important;
+	font: normal normal normal 20px/1.4em Spinnaker,sans-serif;
+}
+
+.dep1_text p {
+	color: #305589;
+}
+
+.dep1_text span {
+	color: white;
+}
+
+.dep1_img {
+	position: absolute; 
+	top: 179px; 
+	height: 21px;
+	width: 310px;
+	left: 0px;
+}
+
+.quadro4_dep2 {
+	position: absolute; 
+	top: 700px; 
+	height: 180px; 
+	width: 310px; 
+	left: 335px;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.dep2_text {
+	position: absolute; 
+	top: 23px; 
+	width: 270px; 
+	left: 22px;
+	line-height: 1.1em !important;
+	font: normal normal normal 20px/1.4em Spinnaker,sans-serif;
+}
+
+.dep2_text p {
+	color: #305589;
+}
+
+.dep2_text span {
+	color: white;
+}
+
+.dep2_img {
+	position: absolute; 
+	top: 179px; 
+	height: 21px;
+	width: 310px;
+	left: 0px;
+}
+
+.quadro4_dep3 {
+	position: absolute; 
+	top: 700px; 
+	height: 180px; 
+	width: 310px; 
+	left: 669px;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.dep3_text {
+	position: absolute; 
+	top: 23px; 
+	width: 270px; 
+	left: 22px;
+	line-height: 1.1em !important;
+	font: normal normal normal 20px/1.4em Spinnaker,sans-serif;
+}
+
+.dep3_text p {
+	color: #305589;
+}
+
+.dep3_text span {
+	color: white;
+}
+
+.dep3_img {
+	position: absolute; 
+	top: 179px; 
+	height: 21px;
+	width: 310px;
+	left: 0px;
+}
+/* Fim Sobre.php */

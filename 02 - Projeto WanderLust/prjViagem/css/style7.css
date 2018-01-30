@@ -1,0 +1,285 @@
+/* Configurações Gerais */
+@import "https://fonts.googleapis.com/css?family=Terminal Dosis Light:light,lightitalic,normal,italic,bold,bolditalic";
+
+.anuncio {
+	position: absolute !important; 
+	top: 890px !important; 
+	height: 105px; 
+	width: 100% !important;
+	left: 0px;
+}
+
+.rodape {
+	position: absolute; 
+	top: 995px !important; 
+	height: 200px; 
+	width: 100% !important;
+	left: 0px; 
+	bottom: auto;
+}
+
+/* Inicio cadastro.php */
+.corpo {
+	position: absolute; 
+	top: 235px; 
+	width: 980px; 
+	left: 0px;
+}
+
+.corpo_titulo {
+	position: absolute; 
+	top: 1px; 
+	width: 965px; 
+	left: 1px;
+	right: 0px;
+	font: normal normal normal 20px/1.4em Spinnaker,sans-serif;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	border-top: 3px solid rgba(255, 255, 255, 1);
+	height: 28px;
+	padding-left: 9px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	border-bottom: 3px solid rgba(255, 255, 255, 1);
+}
+
+form {
+	margin-left: 183px;
+	margin-top: 100px;
+}
+
+.formulario {
+	width: 598px !important;
+	height: 690px;
+	font-family: "Terminal Dosis Light", sans-serif;
+}
+
+.cabecalho {
+	color: #305589;
+	background: rgba(255, 255, 255, 0.4);
+	height: 65px;
+	margin: 0px;
+	text-align: center;
+}
+
+.cabecalho p {
+	font-size: 45px !important;
+	line-height: 1.018em !important;
+	margin: 0px;
+	letter-spacing: 0.2em;
+	font-size: 25px !important;
+	padding-top: 19px;
+}
+
+.estrutura {
+	background-color: rgba(255, 255, 255, 0.77);
+}
+
+.escolha {
+	padding: 24px 60px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	text-align: center;
+	height: 26px;
+	font-size: 18px;
+	color: #555555;
+}
+
+.escolha input[type=radio] {
+	opacity: 0;
+	margin-right: -16px;
+	margin-top: 6px;
+	cursor: pointer;
+	width: 12px;
+	height: 12px;
+}
+
+.escolha input[type=radio] + span:before {
+	content: " ";
+	background-color: #305589;
+	display: inline-block;
+	margin-right: 15px;
+	width: 6px;
+	height: 6px;
+	border: 3px solid #305589;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	visibility: visible;
+}
+
+.escolha input[type=radio]:checked + span:before {
+	background-color: white;
+}
+
+.nome {
+	padding: 8px 60px 8px 60px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.nome_titulo {
+	width: 100% !important;
+	font-size: 24px;
+	color: #6f6f6f;
+}
+
+.pri_nome {
+	vertical-align: top;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.in_nome {
+	margin-top: 9px;
+	font-size: 20px;
+	outline: none;
+	color: #6f6f6f;
+	padding: 4px 10px 2px 10px;
+}
+
+.lbNome {
+	min-height: 13px;
+	margin-top: 3px;
+	font-size: 14px;
+	color: #6f6f6f;
+}
+
+.sec_nome {
+	vertical-align: top;
+	display: inline-block;
+	margin-right: 5px;
+	max-width: 196px;
+}
+
+.in_sobrenome {
+	margin-top: 9px;
+	font-size: 20px;
+	outline: none;
+	color: #6f6f6f;
+	padding: 4px 10px 2px 10px;
+}
+
+.lbSobrenome {
+	min-height: 13px;
+	margin-top: 3px;
+	font-size: 14px;
+	color: #6f6f6f;
+}
+
+.destino {
+	padding: 8px 60px 8px 60px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	display: inline-block;
+	width: 478px;
+}
+
+#destino1 {
+	padding-right: 0px !important;
+	width: 250px !important;
+}
+
+.lbDestino {
+	font-size: 24px;
+	color: #6f6f6f;
+}
+
+.dpDestino {
+	width: 420px;
+	outline: none;
+	margin-top: 9px;
+	color: #6f6f6f;
+	padding: 4px 10px 2px 10px;
+	font: normal normal normal 20px/normal Arial;
+}
+
+.pacote {
+	padding: 8px 0px 8px 60px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	display: inline-block;
+	width: 100%;
+}
+
+.lbPacote {
+	font-size: 24px;
+	color: #6f6f6f;
+}
+
+.dpPacote {
+	width: 420px;
+	outline: none;
+	margin-top: 9px;
+	font-size: 20px;
+	color: #6f6f6f;
+	padding: 4px 10px 2px 10px;
+}
+
+.horario {
+	display: inline-block;
+	padding: 8px 0px 8px 60px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.lbHorario {
+	font-size: 24px;
+	color: #6f6f6f;
+}
+
+.dpHorario {
+	width: 150px;
+	outline: none;
+	margin-top: 9px;
+	font-size: 20px;
+	color: #6f6f6f;
+	padding: 4px 10px 2px 10px;
+}
+
+.quantidade {
+	display: inline-block !important;
+	padding: 8px 0px 8px 60px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	max-width: 150px;
+}
+
+.lbQtd {
+	font-size: 24px;
+	color: #6f6f6f;
+}
+
+.in_qtd {
+	width: 150px;
+	outline: none;
+	margin-top: 9px;
+	font-size: 20px;
+	color: #6f6f6f;
+	padding: 4px 10px 2px 10px;
+}
+
+.button {
+	text-align: center;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	padding: 24px 60px;
+}
+
+.in_button {
+	color: #ffffff;
+	outline: none;
+	background: #305589;
+	box-shadow: none;
+	text-shadow: none;
+	padding: 9px 15px;
+	font-family: "Terminal Dosis Light", sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+	border: none;
+	border-width: 1px !important;
+	border-style: solid !important;
+	border-color: #305589;
+	cursor: pointer;
+}
+/* Fim cadastro.php */
