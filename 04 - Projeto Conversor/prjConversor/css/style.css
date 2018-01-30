@@ -1,0 +1,175 @@
+body {
+	background-image: url("../images/back.jpg");
+	background-size: cover;
+    background-attachment: fixed;
+	margin: 0;
+}
+
+.logo_div {
+	border-radius: 200px 80px 80px 200px;
+	margin: 60px;
+	top: 40px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo_div .img {
+	width: 400px;
+}
+
+.logo_div h2 {
+	position: absolute;
+	top: 50px;
+	left: 450px;
+	font-family: "Amatic sc";
+	font-size: 100px;
+	color: white;
+}
+
+.logo_div span {
+	color: #5F8A60;
+}
+
+.logo_div .seta {
+	background: transparent url(../images/seta.gif) center 16px no-repeat;
+    background-size: 20px 20px !important;
+    border: 3px solid white;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 370px;
+    z-index: 99;
+    display: block;
+    left: 1190px;
+    text-align: left !important;
+    cursor: pointer;
+}
+
+.logo_div .text {
+	font-family: "ThirstyRoughBolTwo";
+    font-size: 40px;
+    color: white;
+    top: 260px;
+    left: 500px;
+    position: absolute;
+}
+
+#corpo {
+	padding-top: 180px;
+	height: 400px;
+	font-family: "Didact Gothic", sans-serif;
+}
+
+.content {
+	border-radius: 0 80px 0px 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: relative;
+	height: 200px;
+	margin: auto;
+	width: 800px;
+}
+
+.botao {
+	position: absolute;
+	bottom: 0px;
+	left: 600px;
+	margin: 6px auto;
+	outline: none;
+	cursor: pointer;
+	min-width: 120px;
+}
+
+.lingua1, .lingua2, .lingua1_input, .result {
+	position: relative;
+	color: #5F8A60;
+	text-shadow: gray;
+	background-color: white;
+	font-size: 17px;
+	padding: 5px 12px;
+	font-weight: bolder;
+	margin: 6px auto;
+	outline: none;
+	cursor: pointer;
+	display: inline-block;
+    font-family: "Didact Gothic", sans-serif;
+	min-width: 120px;
+}
+
+.lingua1 {
+	position: absolute;
+	left: 20px;
+	top: 10px;
+	color: #5F8A60;
+}
+
+.lingua1_input {
+	position: absolute;
+	left: 20px;
+	bottom: 30px;
+	color: #5F8A60;
+}
+
+.lingua2 {
+	position: absolute;
+	right: 250px;
+	top: 10px;
+	color: #5F8A60;
+}
+
+#conversao_t {
+	position: relative;
+	color: white;
+	border-radius: 0 0px 80px 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 200px;
+	margin: auto;
+	width: 800px;
+}
+
+#conversao_t center {
+	padding-top: 10px;
+    font-size: 25px;
+}
+
+.l1, .l5, .l10, .l50 {
+	position: relative;
+	top: 20px;
+	padding-left: 20px;
+	font-size: 19px;
+}
+
+.l100, .l500, .l1000 {
+	position: relative;
+	top: -60px;
+	padding-left: 500px;
+	font-size: 19px;
+}
+
+.linha {
+	position: relative; 
+	height: 105px; 
+	margin: auto;
+	width: 0px;
+	border-left: 10px solid white;
+}
+
+::-webkit-input-placeholder {
+   color: #5F8A60;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(95, 138, 96, 0.7);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5F8A60;
+}
