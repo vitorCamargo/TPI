@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv = "Content-Type" content = "text/html; charset = UTF-8">
+		<title> Jumby | Cadastro </title>
+		
+		<link href = "images/icon.png" rel = "icon" type = "image/png">
+		
+		<link href = "css/style.css" rel = "stylesheet" type = "text/css">
+		<link href = "css/font.css" rel = "stylesheet" type = "text/css">
+		
+		<script src = "js/jquery-1.11.3.js"></script>
+		<script src = "js/js.js"></script>
+		<script src = "js/java.js"></script>
+	</head>
+	
+	<body id = "pagina">
+		<menu>
+			<button type = "button" onclick = "irPara(1)" class = "menu_botao1"> Login </button>
+			<button type = "button" onclick = "irPara(2)" class = "menu_botao2"> Cadastro </button>
+		</menu>
+		<div class = "form">
+			<form name = "form1" id = "form1" method = "POST" action = "pags/cadastrar.php">
+					<div class = "head">
+						<p> JUMBY </p>
+						<span> Faça seu cadastro e seja parte você também! </span>
+					</div>
+					
+					<input type = "text" name = "nome" class = "login" maxlength = "60" placeholder = "Digite seu Nome" required/>
+					<input type = "text" name = "login" class = "meio" maxlength = "20" placeholder = "Digite o Nome de Login" required/>
+					
+					<input type = "text" id = "cep" name = "cep" class = "cep" maxlength = "9" OnKeyPress = "formatar('#####-###', this)" placeholder = "Digite seu CEP" required/>
+					<input type = "button" id = "btBuscador" name = "botaoCEP" class = "busca" value = "Buscar CEP"/>
+					
+					<input type = "text" id = "endereco" name = "endereco" class = "meio1"  placeholder = "Endereço" readonly = "readonly" required/>
+					<input type = "text" id = "bairro" name = "bairro" class = "meio2" placeholder = "Bairro" readonly = "readonly" required/>
+					<input type = "number" id = "numero" name = "numero" class = "meio2" placeholder = "nº" required/>
+					<input type = "text" id = "cidade" name = "cidade" class = "meio2" placeholder = "Cidade" readonly = "readonly" required/>
+					<input type = "text" id = "estado" name = "estado" class = "meio2" placeholder = "Estado" readonly = "readonly" required/>
+					
+					
+					<input type = "password" name = "senha" class = "senha" maxlength = "20" placeholder = "Digite uma Senha" required/>
+					<input type = "submit" value = "CADASTRAR" class = "botao"/>
+			</form>
+		</div>
+	</body>
+</html>
