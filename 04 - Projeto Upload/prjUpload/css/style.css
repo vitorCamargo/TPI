@@ -1,0 +1,139 @@
+body {
+	background-color: #202225;
+	margin: 87px;
+	font-size: 12px;
+}
+
+.slogan {
+	font-family: 'gothambook';
+	font-size: 26px;
+	position: absolute;
+	top: 40px;
+	left: 85px;
+	padding-right: 48px;
+	line-height: 40px;
+	background: url("../images/net.png") no-repeat bottom right;
+}
+
+.slogan1 {
+	color: #69c4ae;
+}
+
+.slogan2 {
+	color: #cdd0d6;
+	font-weight: normal;
+}
+
+.box_title h2 {
+  margin: 156px auto 0;
+  padding-top: 28px;
+  font-family: 'gothambold';
+  font-size: 2.435em;
+  color: #cdd0d6;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  background: url("../images/line.png") no-repeat top center;
+}
+
+.box_title p {
+  margin: 0 auto;
+  padding-bottom: 39px;
+  font-family: 'gothambook';
+  font-size: 1.310em;
+  color: #a6aab1;
+  line-height: 24px;
+  text-align: center;
+  background: url(../images/line.png) no-repeat bottom center;
+}
+
+.botoes {
+	margin: 100px auto 0;
+}
+
+.botao1 {
+  margin: auto;
+  font-family: 'gothammedium';
+  color: white;
+  outline: none;
+  max-width: 200px;
+  max-height: 51px;
+}
+
+.botao1::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.botao1::before {
+  width: 200px;
+  margin: auto;
+  content: 'Selecione Imagem';
+  background: #69c4ae;
+  border-radius: 25px;
+  text-align: center;
+  padding: 16px 25px;
+  font-family: 'gothammedium';
+  font-size: 1.195em;
+  color: #fff;
+  outline: none;
+  white-space: nowrap;
+  cursor: pointer;
+  position: relative;
+}
+
+.botao1:hover::before {
+  background: #579B8C;
+}
+
+.botao2 {
+  width: 200px;
+  margin: auto;
+  background: #69c4ae;
+  border-radius: 25px;
+  text-align: center;
+  padding: 16px 15px;
+  font-family: 'gothammedium';
+  font-size: 1.3em;
+  color: #fff;
+  outline: none;
+  white-space: nowrap;
+  border: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.botao2:hover {
+  background: #579B8C;
+}
+
+.img_up {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  max-width: calc(100% - 60px);
+  border: 30px solid rgba(0, 0, 0, 0.3);
+}
+
+.volta {
+	position: absolute;
+	top: 40px;
+	right: 95px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #202225;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+    background: #202225;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #69c4ae;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #579B8C;
+}
