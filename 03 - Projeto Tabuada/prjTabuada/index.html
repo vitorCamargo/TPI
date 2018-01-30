@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Tabuada </title>
+		<link href = "css/style.css" type = "text/css" rel = "stylesheet">
+		<link href = "images/ico.png" type = "image/png" rel = "shortcut icon">
+		
+		<script src = "jquery-1.11.3.js"></script>
+		<script>
+			$(document).ready(function() {
+				$("#botao").click(function() {
+					$.get("calcular.php", {
+						num: $("#txtNum").val()
+					}, 
+					function(data, status) {
+						$("#txtNum").val("0");
+						$("#tabuada").css("display" , "none");
+						$("#tabuada").fadeIn("slow");
+						$("#tabuada").html(data);
+					});
+				});
+			});
+		</script>
+	</head>
+	
+	<body>		
+		<div class = "div_input">
+			<input class = "input" type = "text" value = "0" id = "txtNum"/>
+			<label class = "label" data-content = "Digite um Valor">
+				<span> Digite um Valor </span>
+			</label>
+		</div>			
+		<button class = "botao" data-text = "Tabuada" id = "botao">
+			<span> Tabuada </span>
+		</button>
+			
+		<div id = "tabuada">  </div> 
+	</body>
+</html>
