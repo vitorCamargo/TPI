@@ -58,7 +58,7 @@
 			</div>
 			
 			<div class = "div_menu">
-				<a href = "pags/index.php" target = "_self" class = "link_menu"> Home </a>
+				<a href = "index.php" target = "_self" class = "link_menu"> Home </a>
 				<a href = "pags/Destinos.php" target = "_self" class = "link_menu"> Destinos </a>
 				<span id = "menu_1">
 					<a href = "pags/Pacotes.php" target = "_self" class = "link_menu" id = "menu_pacotes" > Pacotes </a>
